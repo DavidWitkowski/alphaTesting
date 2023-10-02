@@ -33,17 +33,19 @@ nav{
 
 /* END OF NAVBAR STYLES */
 
+.container{
+    min-height:1000px;
+    max-height:1200px;
+}
+
 #iam{
-    min-height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top:45%;
 }
 
-h1{
-    margin-top: -300px;
-}
 
 .text{
     position:relative;
@@ -77,100 +79,115 @@ h1{
     }
 }
 
-#content{
-    width:100%;
-    height:100%;
-}
-
 .cloud{
-    position:absolute;
-    top:20vh;
-    left:65vh;
+    position:relative;
     background-color: #5918df;
-    width: 500px;
-    height: 500px;
     border-radius: 50%;
     filter: drop-shadow(0px 100px 14px rgb(97, 11, 235));
+    height:25vw;
+    width:25vw;
+    min-width: 430px;
+    min-height: 430px;
+    margin-top:150px;
 }
 
 #circle1{
     position: absolute;
     background-color: #5918df;
-    width: 150px;
-    height: 150px;
+    width: 13vw;
+    height: 13vw;
     border-radius: 50%;
     animation: animcirc1 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 130px;
+    min-height: 130px;
 }
 
 #circle2{
     position: absolute;
     background-color: #5918df;
-    width: 250px;
-    height: 250px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
     animation: animcirc2 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 #circle3{
     position: absolute;
     background-color: #5918df;
-    width: 200px;
-    height: 200px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     animation: animcirc3 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 #circle4{
     position: absolute;
     background-color: #5918df;
-    height: 200px;
+    width: 13vw;
+    height: 13vw;
     border-radius: 50%;
     animation: animcirc4 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 130px;
+    min-height: 130px;
 }
 
 #circle5{
     position: absolute;
     background-color: #5918df;
-    width: 150px;
-    height: 150px;
+    width: 7vw;
+    height: 7vw;
     border-radius: 50%;
     animation: animcirc5 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 70px;
+    min-height: 70px;
 }
 
 #circle6{
     position: absolute;
     background-color: #5918df;
-    width: 250px;
-    height: 250px;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
     animation: animcirc6 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 #circle7{
     position: absolute;
     background-color: #5918df;
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    height: 10vw;
     border-radius: 50%;
     animation: animcirc7 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 100px;
+    min-height: 100px;
 }
 
 #circle8{
     position: absolute;
     background-color: #5918df;
-    width: 230px;
-    height: 230px;
+    width: 12vw;
+    height: 12vw;
     border-radius: 50%;
     animation: animcirc8 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 120px;
+    min-height: 120px;
 }
 
 #circle9{
     position: absolute;
     background-color: #5918df;
-    width: 180px;
-    height: 180px;
+    width: 6vw;
+    height: 6vw;
     border-radius: 50%;
     animation: animcirc9 25s cubic-bezier(0, 0, 0, 0) infinite;
+    min-width: 60px;
+    min-height: 60px;
 }
 
 @keyframes animcirc1 {
