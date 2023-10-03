@@ -24,18 +24,24 @@
 
 nav{
     background-color: white;
-    border-bottom: 1px solid black;
 }
 
 #navbarSupportedContent{
     text-align: center;
 }
 
-/* END OF NAVBAR STYLES */
+/* MAIN PAGE STYLES */
 
 .container{
     min-height:1000px;
     max-height:1200px;
+    border-bottom:1px solid black;
+    overflow: hidden;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
 }
 
 #iam{
@@ -618,4 +624,28 @@ nav{
         top: 65%;
         left:-5%;
     }
+}
+
+/* ABOUT ME STYLES */
+
+.aboutmeh1{
+    padding-top:100px;
+    text-align: center;
+}
+
+#aboutmedesc{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.skills{
+    padding-top:100px;
+    text-align: center;
+}
+
+.skillslist{
+    list-style-type: none;
+    font-size: larger;
+    display: inline;
+    height:242px;
 }
