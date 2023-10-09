@@ -48,12 +48,8 @@ nav{
     max-height:1200px;
 }
 
-.row{
-    align-items: center;
-    justify-content: center;
-}
-
 .sun {
+    margin:30% auto;
 	width: 200px;
 	height: 200px;
 	background-color: #FFDE00;
@@ -103,6 +99,7 @@ nav{
     justify-content: center;
     overflow: hidden;
     margin-top:-7%;
+    width:100%;
 }
 
 
@@ -125,7 +122,7 @@ nav{
     height: 100%;
     width:100%;
     background-color: #1E90FF;
-    border-left: 2px solid #1E90FF;
+    border-left: 2px solid white;
     animation: animate 4s steps(18) infinite;
 }
 
@@ -147,14 +144,14 @@ nav{
 
 .cloud{
     position:relative;
-    display: inline-block;
+    display:inline-block;
     background-color: #1E90FF;
     border-radius: 100px;
     width:30vw;
     height:9vw;
     min-width: 430px;
     min-height: 150px;
-    margin-top:300px;
+    margin:20% auto;
 }
 
 #circle1{
