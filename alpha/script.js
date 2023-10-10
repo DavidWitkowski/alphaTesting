@@ -13,7 +13,7 @@ document.addEventListener("mousemove", plsmove);
 
 function textwriter(){
 
-    const text = document.querySelector(".sec-text")
+    const text = document.querySelector("#textscript")
 
         const textLoad = () => {
           setTimeout(() => {
