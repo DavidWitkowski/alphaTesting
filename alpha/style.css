@@ -22,7 +22,7 @@ li{
 /* base styles */
 
 body{
-    background:var(--secondary);
+    background: var(--secondary);
     overflow-x: hidden;
 }
 
@@ -50,6 +50,15 @@ input,textarea{
     box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
 }
 
+.project{
+    height:150px;
+    width:200px;
+    background: var(--primary);
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.6);
+}
+
 /* fonts */
 
 @font-face{
@@ -59,8 +68,121 @@ input,textarea{
 
 /* mobile styles */
 
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.site-nav{
+    margin: 0 20px;
+}
+
+.site-nav h1{
+    grid-column:1/10;
+    grid-row:1;
+}
+
+.site-nav ul{
+    grid-column:1/13;
+    grid-row:2;
+    text-align: center;
+}
+
+#navlist li:nth-child(1){
+    grid-column:1/5;
+}
+
+#navlist li:nth-child(2){
+    grid-column:5/9;
+}
+
+#navlist li:nth-child(3){
+    grid-column:9/13;
+}
+
+#maincloud{
+    grid-column:1/13;
+    grid-row:1;
+    text-align: center;
+    padding-top:50px;
+}
+
+#aboutme h5{
+    text-align: center;
+    margin:20px 20px;
+}
+
+#skills{
+    text-align: center;
+}
+
+#technicalskills{
+    grid-column:1/13;
+}
+
+#softskills{
+    grid-column:1/13;
+}
+
+#projects{
+    text-align: center;
+}
+
+#projectlist a:nth-child(1){
+    grid-column:1/13;
+    grid-row:1;
+}
+
+#projectlist a:nth-child(2){
+    grid-column:1/13;
+    grid-row:2;
+}
+
+#projectlist a:nth-child(3){
+    grid-column:1/13;
+    grid-row:3;
+}
+
+#contact{
+    text-align: center;
+}
+
+input,textarea,button{
+    margin:10px;
+}
+
+textarea{
+    grid-row:2;
+}
+
+button{
+    grid-row:3;
+}
+
+footer{
+    text-align: center;
+    margin-top:20px;
+}
+
+.copyright{
+    grid-column:1/13;
+    grid-row:1;
+}
+
 /* small tablet styles */
+
+@media screen and (min-width: 620px){
+
+}
 
 /* large tablets & laptop styles */
 
+@media screen and (min-width: 960px){
+    
+}
+
 /* desktop styles */
+
+@media screen and (min-width: 1200px){
+    
+}
