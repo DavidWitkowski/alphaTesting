@@ -149,14 +149,8 @@ input,textarea{
 
 input,textarea,button{
     margin:10px;
-}
-
-textarea{
-    grid-row:2;
-}
-
-button{
-    grid-row:3;
+    width:70%;
+    max-width: 400px;
 }
 
 footer{
@@ -164,20 +158,22 @@ footer{
     margin-top:20px;
 }
 
-.copyright{
-    grid-column:1/13;
-    grid-row:1;
+footer ul{
+    display:flex;
 }
 
-#socials:nth-child(1){
-    grid-column:1/13;
+#linkedin{
+    grid-column:1/7;
     grid-row:2;
+    padding:10px 0;
 }
 
-#socials:nth-child(2){
-    grid-column:1/13;
-    grid-row:3;
+#github{
+    grid-column:7/13;
+    grid-row:2;
+    padding:10px 0;
 }
+
 
 /* small tablet styles */
 
